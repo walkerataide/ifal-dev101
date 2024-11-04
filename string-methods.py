@@ -1,25 +1,34 @@
 texto = "Olá, Mundo! Olá IFAL MD!"
 
+# Conta quantas vezes "olá, mundo" aparece no texto (case insensitive)
 print(texto.lower().count("olá, mundo"))
-# print(texto.lower().find("mundo"))
 
-# texto = texto.capitalize().replace("mundo", "IFAL")
+# Encontra a posição de "mundo" no texto (case insensitive)
+print(texto.lower().find("mundo"))
 
-# print(texto)
+# Capitaliza a primeira palavra do texto e substitui "mundo" por "IFAL"
+texto = texto.capitalize().replace("mundo", "IFAL")
+print(texto)
 
-# nome = input("Qual seu nome?")
+# Solicita o nome do usuário
+nome = input("Qual seu nome e último nome?")
 
-# nome = nome.title().split()
-# nome = " ".join(nome)
+# Coloca cada parte do nome com a primeira letra maiúscula
+nome = nome.title().split()
+nome = " ".join(nome)
 
-# primero_nome, sobrenome = nome.title().split()
-# print(f"Olá, {nome}")
+# Separa o primeiro nome e o sobrenome
+primeiro_nome, sobrenome = nome.split()
+print(f"Olá, {nome}")
+print(f"Olá, {primeiro_nome} {sobrenome}")
 
-# print(f"Olá, {primero_nome} {sobrenome}")
-# print(nome.strip(), end="")
-# print(nome.rstrip(), end="")
-# print(nome.lstrip())
-# print(nome.title())
-# print(nome.capitalize())
-# print(nome.upper())
-# print(nome.lower())
+# Remove espaços desnecessários antes e depois do nome (várias formas de fazer isso)
+print(nome.strip(), end="")  # Remove espaços antes e depois
+print(nome.rstrip(), end="")  # Remove espaços depois
+print(nome.lstrip())  # Remove espaços antes
+
+# Diferentes maneiras de formatar o nome
+print(nome.title())  # Cada palavra com a primeira letra maiúscula
+print(nome.capitalize())  # Apenas a primeira palavra com a primeira letra maiúscula
+print(nome.upper())  # Todas as letras maiúsculas
+print(nome.lower())  # Todas as letras minúsculas
