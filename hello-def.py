@@ -1,5 +1,6 @@
 def main():
     nome = input("Qual seu nome?")
+    ola(nome)
 
 
 def ola(para="Mundo"):
