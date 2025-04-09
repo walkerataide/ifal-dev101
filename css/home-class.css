@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- CSS Interno-->
+    <style>
+      /*seletor de elemento css*/
+      body {
+        /*propriedade: valor;*/
+        text-align: center;
+      }
+
+      header {
+        font-size: large;
+        color: blue;
+      }
+
+      main {code -ms-high-contrast-adjust: ;
+        font-size: medium;
+      }
+
+      footer {
+        font-size: small;
+      }
+    </style>
+    <title>css</title>
+  </head>
+  <body>
+    <header>Walker Ataide</header>
+    <main>Bem-vindo a minha página!</main>
+    <footer>Copyright &#169; Ifal Coders.</footer>
+  </body>
+</html>
