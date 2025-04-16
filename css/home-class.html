@@ -3,23 +3,23 @@
   <head>
     <!-- CSS Interno-->
     <style>
-      /*seletor de elemento css*/
-      body {
+      /*seletor de classe css*/
+      .centralizado {
         /*propriedade: valor;*/
         text-align: center;
       }
 
-      header {
+      .grande {
         font-size: large;
         color: blue;
       }
 
-      main {
+      .medio {
         font-size: medium;
         color: red;
       }
 
-      footer {
+      .pequeno {
         font-size: small;
         color: green;
       }
@@ -27,8 +27,12 @@
     <title>css</title>
   </head>
   <body>
-    <header>Walker Ataide</header>
-    <main>Bem-vindo a minha página!</main>
-    <footer>Copyright &#169; Ifal Coders.</footer>
+    <header class="centralizado grande">Walker Ataide</header>
+
+    <main class="centralizado medio">Bem-vindo a minha página!</main>
+
+    <div>
+      <footer class="pequeno">Copyright &#169; Ifal Coders.</footer>
+    </div>
   </body>
 </html>

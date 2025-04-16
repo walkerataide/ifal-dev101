@@ -1,0 +1,20 @@
+/*seletor de classe css*/
+.centralizado {
+    /*propriedade: valor;*/
+    text-align: center;
+  }
+
+  .grande {
+    font-size: large;
+    color: blue;
+  }
+
+  .medio {
+    font-size: medium;
+    color: red;
+  }
+
+  .pequeno {
+    font-size: small;
+    color: green;
+  }
